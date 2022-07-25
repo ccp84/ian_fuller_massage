@@ -1,17 +1,23 @@
-body {
-    display: grid;
-    grid-template-columns: 90%;
-  }
-  
-  /* Small devices (portrait tablets and large phones, 600px and up)
-  @media only screen and (min-width: 600px) {
+/*Set up grid for responsiveness*/
+/*Mobile view as standard*/
+.main_grid{
+  display: grid;
+  grid-template-columns: 90%;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up)*/
+ @media only screen and (min-width: 600px) {
+  .main_grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
+  }
   
-  /* Large devices (laptops/desktops, 992px and up)
+  /* Large devices (laptops/desktops, 992px and up)*/
   @media only screen and (min-width: 992px) {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-  }*/
+    .main_grid{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+  }
   

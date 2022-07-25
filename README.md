@@ -18,7 +18,7 @@ Visitors to the site should be able to:
 * A consistent header and footer throughout the site, wether viewed on a mobile, tablet or desktop. 
 * A welcome from Ian.
 * For mobile and tablet views, a collapsible menu to save on screen space.
-* Consistent corporate theme - colours used for Ians logo and facebook page are : '#24d9f1' and '#4d4c4f'
+* Consistent corporate theme - colours used for Ians logo and facebook page are : `#24d9f1` and `#4d4c4f`
 * Link to social media. 
 * A gallery of recent events.
 * A contact form.
@@ -61,7 +61,7 @@ This design features a full header with a nav bar and main title image on the pa
 
 * [Device breakpoint media queries used from recommendation on W3Schools](https://www.w3schools.com/css/css_rwd_mediaqueries.asp)
 
-'''/* Extra small devices (phones, 600px and down) */
+```/* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {...}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -74,4 +74,4 @@ This design features a full header with a nav bar and main title image on the pa
 @media only screen and (min-width: 992px) {...}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {...}'''
+@media only screen and (min-width: 1200px) {...}```
