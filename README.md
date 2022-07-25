@@ -59,8 +59,8 @@ This design features a full header with a nav bar and main title image on the pa
 
 ## Credits
 
-|* Device breakpoint media queries used from recommendation on W3Schools
-'/* Extra small devices (phones, 600px and down) */
+* Device breakpoint media queries used from recommendation on W3Schools
+'''/* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {...}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -73,4 +73,4 @@ This design features a full header with a nav bar and main title image on the pa
 @media only screen and (min-width: 992px) {...}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {...}'
+@media only screen and (min-width: 1200px) {...}'''
