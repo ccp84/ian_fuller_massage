@@ -26,22 +26,22 @@ Visitors to the site should be able to:
 
 ### Wireframes
 
-[Link to Balsamiq files](/documentation/wireframes/ian_fuller_massage.bmpr)
+[Link to Balsamiq files](documentation/wireframes/ian_fuller_massage.bmpr)
 
 #### Mobile View
 Designed with a collapsible menu for space saving on small screens. Header and footer will be consistent throughout all pages to maintain a uniform corporate image. Colours blue, grey and white match Ian's logo, printed media, and social media pages. 
 
-![Image of mobile wireframe](/documentation/wireframes/mobile.png)
+![Image of mobile wireframe](documentation/wireframes/mobile.png)
 
 #### Tablet View
 Designed with a collapsible menu for space saving still although a larger screen than mobile, space is still at a premium users may be browsing portrait rather than landscape. Header and footer design will follow the same theme as mobile but will utilise the extra space to display the business name in the header. Colours will be consistent with corporate image. 
 
-![Image of tablet wireframe](/documentation/wireframes/tablet.png)
+![Image of tablet wireframe](documentation/wireframes/tablet.png)
 
 #### Desktop View
 This design features a full header with a nav bar and main title image on the page. The nav bar will be sticky and follow the user down the page. The footer will remain the same design as the mobile and tablet layout. Colours will be consistent with corportage image. 
 
-![Image of desktop wireframe](/documentation/wireframes/desktop.png)
+![Image of desktop wireframe](documentation/wireframes/desktop.png)
 
 ---
 
