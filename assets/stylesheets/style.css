@@ -1,17 +1,17 @@
 body {
     display: grid;
-    grid-template-rows: 90%;
+    grid-template-columns: 90%;
   }
   
   /* Small devices (portrait tablets and large phones, 600px and up) */
   @media only screen and (min-width: 600px) {
     display: grid;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
   }
   
   /* Large devices (laptops/desktops, 992px and up)*/
   @media only screen and (min-width: 992px) {
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
   }
   
