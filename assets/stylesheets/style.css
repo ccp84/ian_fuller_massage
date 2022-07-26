@@ -27,6 +27,7 @@
     grid-template-columns: 1fr 1fr;
   }
 
+  /* Banner image changes for larger screens */
   #banner {
     background-image: url(../images/banner2.png);
     height: 250px;
@@ -45,7 +46,8 @@
       display: grid;
       grid-template-columns: 1fr 1fr 1fr 1fr;
     }
-  
+    
+    /* banner image changes for larger screens*/
     #banner {
       background-image: url(../images/banner2.png);
       height: 250px;
