@@ -65,7 +65,7 @@ This design features a full header with a nav bar and main title image on the pa
 
 ## Credits
 
-* [Device breakpoint media queries used from recommendation on W3Schools](https://www.w3schools.com/css/css_rwd_mediaqueries.asp)
+* [Device breakpoint media queries used from recommendation on W3Schools](https://www.w3schools.com/css/css_rwd_mediaqueries.asp
 
 ```/* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {...}
@@ -81,3 +81,6 @@ This design features a full header with a nav bar and main title image on the pa
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {...}```
+
+* [Hamburger menu code from Erik Terwan](https://codepen.io/erikterwan/pen/grOZxx)
+HTML and CSS code used with CSS modifications made to fit site style and theme 
