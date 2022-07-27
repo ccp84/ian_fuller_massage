@@ -52,6 +52,7 @@ This design features a full header with a nav bar and main title image on the pa
 ### Technologies Used
 * [Canva](www.canva.com) - Logo design and image manipulation
 * Paint.net - Image manipulation and resizing
+* Google Fonts - Quicksilver font used 
 
 ---
 
