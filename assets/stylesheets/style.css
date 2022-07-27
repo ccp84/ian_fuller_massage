@@ -1,34 +1,12 @@
 /* Overall site styling */
 
-
-/* Header grid switches 2:1 layout for mobile and tablet to 1:2 layout on desktop using standard media
-sizing as found on W3schools */
-
-.head_grid{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-
-/* Large devices (laptops/desktops, 992px and up)*/
-@media only screen and (min-width: 992px) {
-  .head_grid {
-    display: grid;
-    grid-template-columns: 100%;
-  }
-
-}
-
 /* Header */
 
 header {
   background-color: #24d9f1;
 }
 
-/* Nav styling */
 
-nav ul {
-  list-style: none;
-}
 
 /*Set up grid for responsiveness*/
 /*Mobile view as standard*/

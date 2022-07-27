@@ -9,19 +9,33 @@
 </head>
 <body>
     <!-- Header logo and navigation grid-->
-    <header class="head_grid">
+    <header>
+        <!--Hambuger menu code used from codepen by Erik Terwan-->
+        <nav role='navigation'>
+            <div id="menuToggle">
+              <!--
+              A fake / hidden checkbox is used as click reciever,
+              so you can use the :checked selector on it.
+              -->
+              <input type="checkbox" />
+              
+              <!-- Some spans to act as a hamburger.-->
+              <span></span>
+              <span></span>
+              <span></span>
+              <ul id="menu">
+                <a href="#"><li>Home</li></a>
+                <a href="#"><li>About</li></a>
+                <a href="#"><li>Info</li></a>
+                <a href="#"><li>Contact</li></a>
+                </ul>
+            </div>
+          </nav>
         <picture>
             <source media="(max-width: 600px)" srcset="assets/images/logosml.png" aria-label="business logo with text Ian Fuller Sports Massage">
             <source srcset="assets/images/logo3.png" aria-label="business logo with text Ian Fuller Sports Massage">
             <img src="assets/images/logo3.png" alt="business logo with text Ian Fuller Sports Massage">
         </picture>
-        <nav>
-            <ul>
-                <li><a href="index.html" aria-label="link to homepage">Home</a></li>
-                <li><a href=# aria-label="placeholder">Placeholder</a></li>
-                <li><a href=# aria-label="placeholder">Placeholder</a></li>
-            </ul>
-        </nav>
     </header>
     <!-- Main Site Grid Starts Here -->
     <main class="main_grid">
