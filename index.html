@@ -10,6 +10,14 @@
 <body>
     <!-- Header logo and navigation grid-->
     <header>
+        <picture>
+            <!--Logo size to increase only for desktop-->
+            <source media="(max-width: 992px)" srcset="assets/images/logosml.png" aria-label="business logo with text Ian Fuller Sports Massage">
+            <source srcset="assets/images/logo3.png" aria-label="business logo with text Ian Fuller Sports Massage">
+            <img src="assets/images/logo3.png" alt="business logo with text Ian Fuller Sports Massage">
+        </picture>
+        <!--h1 only to display on tablets upwards-->
+        <h1>Ian Fuller<br>Sports Massage</h1>
         <!--Hambuger menu code used from https://codepen.io/erikterwan/pen/grOZxx by Erik Terwan-->
         <nav role='navigation'>
             <div id="menuToggle">
@@ -26,12 +34,6 @@
                 </ul>
             </div>
           </nav>
-        <picture>
-            <!--Logo size to increase only for desktop-->
-            <source media="(max-width: 992px)" srcset="assets/images/logosml.png" aria-label="business logo with text Ian Fuller Sports Massage">
-            <source srcset="assets/images/logo3.png" aria-label="business logo with text Ian Fuller Sports Massage">
-            <img src="assets/images/logo3.png" alt="business logo with text Ian Fuller Sports Massage">
-        </picture>
     </header>
     <!-- Main Site Grid Starts Here -->
     <main class="main_grid">
