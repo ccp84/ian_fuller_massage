@@ -2,7 +2,7 @@
 
 ## Concept
 
-Ian Fuller Massage is a new business startup providing sports massage therapy services. This website aims to promote Ian Fuller Massage to new clients, as well as inform existing clients of offers and provide a means of contact for booking appointments. . 
+Ian Fuller Sports Massage is a new business startup providing sports massage therapy services. This website aims to promote Ian Fuller Sports Massage to new clients, as well as inform existing clients of offers and provide a means of contact for booking appointments.
 
 ### User Stories
 
