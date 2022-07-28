@@ -84,6 +84,8 @@ The desktop version of the site header and nav bar is viewed on any screen wider
 
 ## Credits
 
+**Code**
+
 * [Device breakpoint media queries used from recommendation on W3Schools](https://www.w3schools.com/css/css_rwd_mediaqueries.asp
 
 ```/* Extra small devices (phones, 600px and down) */
@@ -104,3 +106,8 @@ The desktop version of the site header and nav bar is viewed on any screen wider
 
 * [Hamburger menu code from Erik Terwan](https://codepen.io/erikterwan/pen/grOZxx)
 HTML and CSS code used with CSS modifications made to fit site style and theme 
+
+**Images**
+
+* All corporate images copyright of Ian Fuller Sports Massage designed by Cheryl Phillips and Gemma Linsley
+* Facebook logo from [Freeiconspng.com](www.freeiconspng.com)
