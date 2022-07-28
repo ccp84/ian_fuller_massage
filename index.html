@@ -10,35 +10,37 @@
 <body>
     <!-- Header logo and navigation grid-->
     <header>
-        <picture>
-            <!--Logo size to increase only for desktop-->
-            <source media="(max-width: 992px)" srcset="assets/images/logosml.png" aria-label="business logo with text Ian Fuller Sports Massage">
-            <source srcset="assets/images/logo3.png" aria-label="business logo with text Ian Fuller Sports Massage">
-            <img src="assets/images/logo3.png" alt="business logo with text Ian Fuller Sports Massage">
-        </picture>
-        <!--h1 only to display on tablets upwards-->
-        <h1>Ian Fuller<br>Sports Massage</h1>
-        <!--Hambuger menu code used from https://codepen.io/erikterwan/pen/grOZxx by Erik Terwan-->
-        <nav role='navigation'>
-            <div id="menuToggle">
-                <input type="checkbox" />
-                <!-- Some spans to act as a hamburger.-->
-                <span></span>
-                <span></span>
-                <span></span>
+        <div id="sticky_title">
+            <h1>Ian Fuller Sports Massage</h1>
+            <!--Hambuger menu code used from https://codepen.io/erikterwan/pen/grOZxx by Erik Terwan-->
+            <nav role='navigation'>
+                <div id="menuToggle">
+                    <input type="checkbox" />
+                    <!-- Some spans to act as a hamburger.-->
+                    <span></span>
+                    <span></span>
+                    <span></span>
 
-                <ul id="menu">
-                    <li><a href="index.html" aria-label="Go to home page">Home</a></li>
-                    <li><a href=# aria-label="Go to services and prices">Services</a></li>
-                    <li><a href=# aria-label="View the gallery">Gallery</a></li>
-                </ul>
+                    <ul id="menu">
+                        <li><a href="index.html" aria-label="Go to home page">Home</a></li>
+                        <li><a href=# aria-label="Go to services and prices">Services</a></li>
+                        <li><a href=# aria-label="View the gallery">Gallery</a></li>
+                    </ul>
+                </div>
+            </nav>
             </div>
-          </nav>
-    </header>
+            <div id="banner" aria-label="Photograph of a client's leg being massaged">
+                <picture>
+                    <!--Logo size to increase only for desktop-->
+                    <source media="(max-width: 992px)" srcset="assets/images/logosml.png" aria-label="business logo with text Ian Fuller Sports Massage">
+                    <source srcset="assets/images/logo3.png" aria-label="business logo with text Ian Fuller Sports Massage">
+                    <img src="assets/images/logo3.png" alt="business logo with text Ian Fuller Sports Massage">
+                </picture>
+            </div>
+        </header>
     <!-- Main Site Grid Starts Here -->
     <main class="main_grid">
         <!-- banner image -->
-        <div id="banner"></div>
         <div id="box1"> box 1 </div>
         <div id="box2"> box 2 </div>
         <div id="box3"> box 3 </div>
@@ -46,7 +48,7 @@
     </main>
     <!-- Footer contents -->
     <footer>
-
+        <a href="https://www.facebook.com/Ian-Fuller-Sports-Massage-102289142559980" target="_blank" aria-label="Visit our facebook page opens in a new window">facebook</a>
     </footer>
 </body>
 </html>

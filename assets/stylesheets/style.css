@@ -10,7 +10,7 @@ body {
 
 /* Header */
 
-header {
+#sticky_title {
   background-color: #24d9f1;
 }
 
@@ -229,4 +229,16 @@ nav a:hover
       grid-column-start: 1;
       grid-column-end: 5;
     }
+  }
+
+  /* Footer */
+
+  footer {
+    background-color: #24d9f1;
+    color: #4d4c4f;
+  }
+
+  footer a {
+    color: #4d4c4f;
+    text-decoration: none;
   }
