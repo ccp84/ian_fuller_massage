@@ -12,22 +12,20 @@ body {
 
 #sticky_title {
   background-color: #24d9f1;
+  height: 50px;
 }
 
 h1 {
   display: inline-block;
   text-transform: uppercase;
   color:#4d4c4f;
-  text-align: center;
-  margin: 0;
-  position: absolute;
-  top: 25px;
+  margin: 5px;
 }
 
-/* Phone screen hides h1 text */
+/* Adjust phone screen header text */
 @media only screen and (max-width: 600px) {
   h1 {
-    display: none;
+    font-size: 5vw;
   }
 }
 
@@ -50,8 +48,8 @@ nav a:hover
 {
   display: block;
   position: absolute;
-  top: 50px;
-  right: 50px;
+  top: 10px;
+  right: 5px;
   
   z-index: 1;
   
