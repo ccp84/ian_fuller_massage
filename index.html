@@ -48,7 +48,14 @@
     </main>
     <!-- Footer contents -->
     <footer>
-        <a href="https://www.facebook.com/Ian-Fuller-Sports-Massage-102289142559980" target="_blank" aria-label="Visit our facebook page opens in a new window"><img id="fbook" src="assets/images/facebook.png" alt="facebook logo"></a>
+        <a href="https://www.facebook.com/Ian-Fuller-Sports-Massage-102289142559980" target="_blank" aria-label="Visit our facebook page opens in a new window">
+            <picture>
+                <!--Smaller facebook logo for mobile-->
+                <source media="(max-width: 600px)" srcset="assets/images/facebooksml.png" aria-label="Facebook Logo">
+                <source srcset="assets/images/facebook.png" aria-label="Facebook Logo">
+                <img id="fbook" src="assets/images/facebook.png" alt="facebook logo">
+            </picture>
+        </a>
     </footer>
 </body>
 </html>
