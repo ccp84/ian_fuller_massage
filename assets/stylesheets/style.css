@@ -234,9 +234,15 @@ nav a:hover
   footer {
     background-color: #24d9f1;
     color: #4d4c4f;
+    max-height: 50px;
   }
 
   footer a {
     color: #4d4c4f;
     text-decoration: none;
   }
+/*
+  #fbook {
+    width: 20vw;
+    max-width: 200px;
+  }*/
