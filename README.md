@@ -49,6 +49,24 @@ This design features a full header with a nav bar and main title image on the pa
 
 ### Header Design
 
+I started the project by developing the header as this will be mainly consistent across all pages. This has evolved slightly from the initial concept wireframe as visually the large block of blue at the top of the page as well as a banner image was redundant space on the site and didnt feel balanced. 
+
+The final header design agreed on with the customer has a smaller top bar with the logo overlaying the banner image. 
+
+**Mobile Header**
+![Image of mobile header](documentation/testing/mobile_header.png)
+
+The mobile version of the site header and nav bar is viewed on devices 600px or less. This features responsive sizing for the ``<h1>`` element using ``vw`` as the unit of measurement. It displays a different png file for the banner image which is thinner to occupy less space on the screen and a smaller sized logo. The hamburger menu is used to ensure navigation does not occupy valuable screen space and detract from the site content. 
+
+**Tablet Header**
+![Image of tablet header](documentation/testing/tablet_header.png)
+
+The tablet version of the site header and nav bar is viewed on devices between 600px and 992px. This reverts to standard sizing for the ``<h1>`` element and uses a larger banner image to take advantage of a bigger screen size. The logo displayed is still the smaller version to account for the portrait viewing width. Hamburger nav menu is maintained for consistency and clean design. 
+
+**Desktop Header**
+![Image of desktop header](documentation/testing/desktop_header.png)
+The desktop version of the site header and nav bar is viewed on any screen wider than 992px. This takes advantage of the banner image in full and the original sized logo image. I have maintained the hamburger nav menu for consistency across the site and after viewing a range of websites with them in use on their desktop version it provides an uncluttered viewing area for the site content. 
+
 ### Technologies Used
 * [Canva](www.canva.com) - Logo design and image manipulation
 * Paint.net - Image manipulation and resizing
