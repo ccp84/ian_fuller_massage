@@ -5,7 +5,7 @@ body {
   margin: 0;
   font-family: 'Quicksand', Arial, sans-serif;
 
-  overflow-x: hidden; /* needed because hiding the menu on the right side is not perfect,  */
+  overflow-x: hidden; /* hides the pop out menu  */
 }
 
 /* Header */
@@ -122,9 +122,6 @@ nav a:hover
   transform: rotate(0deg) scale(0.2, 0.2);
 }
 
-/*
- * Ohyeah and the last one should go the other direction
- */
 #menuToggle input:checked ~ span:nth-last-child(2)
 {
   opacity: 1;
@@ -138,7 +135,7 @@ nav a:hover
 #menu
 {
   position: absolute;
-  width: 300px;
+  width: 125px;
   margin: -100px 0 0 0;
   padding: 50px;
   padding-top: 125px;
@@ -155,13 +152,11 @@ nav a:hover
   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
 }
 
-/*
 #menu li
 {
-  padding: 10px 0;
-  font-size: 22px;
+  padding: 5px;
 }
-*/
+
 /*
  * And let's fade it in from the left
  */
