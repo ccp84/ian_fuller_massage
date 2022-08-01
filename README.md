@@ -85,6 +85,15 @@ The mobile footer features a trimmed down version of the facebook image link for
 
 Both the tablet and desktop views feature a larger "Find us on Facebook" image link to take advantage of the larger viewing area. 
 
+### Landing Page
+
+![Image of all 3 main page views](documentation/testing/mainpage.png)
+
+All 3 views of the main page work from the same main grid layout. 
+
+**Responsive Features**
+On mobile, the text uses ``vw`` units to resize with the browser. 
+
 ### Technologies Used
 * [Canva](www.canva.com) - Logo design and image manipulation
 * Paint.net - Image manipulation and resizing
