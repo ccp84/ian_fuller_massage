@@ -67,6 +67,17 @@ The tablet version of the site header and nav bar is viewed on devices between 6
 ![Image of desktop header](documentation/testing/desktop_header.png)
 The desktop version of the site header and nav bar is viewed on any screen wider than 992px. This takes advantage of the banner image in full and the original sized logo image. I have maintained the hamburger nav menu for consistency across the site and after viewing a range of websites with them in use on their desktop version it provides an uncluttered viewing area for the site content. 
 
+### Footer Design
+Footer Design was completed next as it is consistent across all pages. This will enable me to clone the index page when creating further pages minimising repetitive work and ensuring consistency. It's main feature is to finish off the overall containment of the main content, and has links to social media and professional memberships related to the business. These links open in a new browser window. 
+
+**Mobile Footer**
+![Image of mobile footer](documentation/testing/mobile_footer.png)
+The mobile footer features a trimmed down version of the facebook image link for space saving. This is achieved using the ``<picture>`` tag with a media query nested inside the html. Aria labelling is used where the ``alt`` element is not available for images.
+
+**Tablet and Desktop Footer**
+![Image of tablet/desktop footer](documentation/testing/tablet_desktop_footer.png)
+Both the tablet and desktop views feature a larger "Find us on Facebook" image link to take advantage of the larger viewing area. 
+
 ### Technologies Used
 * [Canva](www.canva.com) - Logo design and image manipulation
 * Paint.net - Image manipulation and resizing
@@ -111,3 +122,4 @@ HTML and CSS code used with CSS modifications made to fit site style and theme
 
 * All corporate images copyright of Ian Fuller Sports Massage designed by Cheryl Phillips and Gemma Linsley
 * Facebook logo from [Freeiconspng.com](www.freeiconspng.com)
+* FHT logo used under the terms set out in Ian's membership of the [Federation of Holistic Therapists](fht.org.uk)
