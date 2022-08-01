@@ -92,7 +92,10 @@ Both the tablet and desktop views feature a larger "Find us on Facebook" image l
 All 3 views of the main page work from the same main grid layout. 
 
 **Responsive Features**
-On mobile, the text uses ``vw`` units to resize with the browser. 
+* On mobile, the text uses ``vw`` units to resize with the browser. 
+* The image associated with the 'Welcome' section disappears for mobile users to maximise screen space. 
+* The main offer located in the center of the landing page is sized to 100% of the screen for mobile users, this has a ``max width`` however for larger screen sizes so as not to distort the image file, and be too out of proportion with the rest of the content. 
+* An additional flex layout within the last grid box on the page enables the contact details and opening times to stack on top of each other for mobile users, but spread out for a more balanced view for larger screen sizes. 
 
 ### Technologies Used
 * [Canva](www.canva.com) - Logo design and image manipulation
