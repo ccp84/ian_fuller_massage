@@ -8,18 +8,27 @@ body {
   overflow-x: hidden; /* hides the pop out menu  */
 }
 
-/* Set all fonts to be responsive and consistent throughout site */
+/* Set fonts to be responsive on smaller screens */
+@media only screen and (max-width: 600px) {
 
-h1 {
-  font-size: 4vw;
-}
+  h1 {
+    font-size: 4vw;
+  }
 
-h2 {
-  font-size: 3vw;
-}
+  h2 {
+    font-size: 3vw;
+  }
 
-p {
-  font-size: 2.5vw;
+  p {
+    font-size: 2.5vw;
+  }
+
+  /* And a class to use to hide larger elements on phone screens */
+
+  .mobile_hide {
+    display: none;
+  }
+
 }
 
 /* Header */
@@ -34,13 +43,6 @@ h1 {
   text-transform: uppercase;
   color:#4d4c4f;
   margin: 5px;
-}
-
-/* Hide H1 text on phone screens below 600px wide to avoid it spanning 2 lines */
-@media only screen and (max-width: 600px) {
-  h1 {
-    display : none;
-  }
 }
 
 /* Hamburger menu code by Erik Terwan https://codepen.io/erikterwan/pen/grOZxx */
