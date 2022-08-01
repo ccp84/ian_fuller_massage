@@ -271,6 +271,15 @@ nav a:hover
     padding: 2px;
   }
 
+  .div_pic {
+    text-align: center;
+  }
+
+  .grid_pic {
+    width: 100%;
+    max-width: 600px;
+  }
+
   /* Footer */
 
   footer {
