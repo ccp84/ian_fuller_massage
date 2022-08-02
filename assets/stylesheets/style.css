@@ -309,6 +309,18 @@ nav a:hover
     }
   }
 
+  /* Style banner offer for services page */
+
+  .div_pic_s {
+    text-align: center;
+  }
+
+  .grid_pic_s {
+    width: 100%;
+    max-width: 600px;
+    grid-column: 1 / 3;
+  }
+
   /* Footer */
 
   footer {
