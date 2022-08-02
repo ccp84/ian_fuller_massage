@@ -310,6 +310,13 @@ nav a:hover
     }
   }
 
+/* Styling for content inside services boxes */
+
+.service {
+  text-align: center;
+  margin: 2px;
+}
+
   /* Footer */
 
   footer {
