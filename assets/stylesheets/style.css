@@ -191,7 +191,7 @@ nav a:hover
 
 /*Set up grid views for responsiveness*/
 /*Mobile view as standard*/
-.main_grid, .service_grid, .review_grid{
+.main_grid, .review_grid{
   display: grid;
   grid-template-columns: 1fr;
 }  
@@ -208,11 +208,6 @@ nav a:hover
 
 /* Small devices (portrait tablets and large phones, 600px and up)*/
  @media only screen and (min-width: 600px) {
-  .service_grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
-
   .review_grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -293,7 +288,7 @@ nav a:hover
     margin: 5px;
   }
 
-  /* Flex of requirement for contact box and opening hours on main page */
+  /* Flex of requirement for splitting boxes into 2 columns */
 
   .flex_main {
     display: flex;
@@ -310,16 +305,9 @@ nav a:hover
   }
 
   /* Style banner offer for services page */
-
-  .div_pic_s {
-    text-align: center;
-  }
-
-  .grid_pic_s {
-    width: 100%;
-    max-width: 600px;
-    grid-column: 1 / 3;
-  }
+#banner_span {
+  grid-column: 1 / span 2;
+}
 
   /* Footer */
 
