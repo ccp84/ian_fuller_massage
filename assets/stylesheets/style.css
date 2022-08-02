@@ -191,7 +191,7 @@ nav a:hover
 
 /*Set up grid views for responsiveness*/
 /*Mobile view as standard*/
-.main_grid{
+.main_grid, .service_grid, .review_grid{
   display: grid;
   grid-template-columns: 1fr;
 }  
@@ -228,7 +228,6 @@ nav a:hover
     grid-column-start: 1;
     grid-column-end: 3;
   }
-  
   }
   
   /* Large devices (laptops/desktops, 992px and up)*/
