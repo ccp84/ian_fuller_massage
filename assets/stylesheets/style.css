@@ -296,18 +296,19 @@ nav a:hover
     justify-content: space-around;
   }
 
+  .flex_main_r {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+  }
+
   /* Respond to larger screen sizes */
 
   @media (min-width: 600px) {
-    .flex_main {
+    .flex_main, .flex_main_r {
       flex-direction: row;
     }
   }
-
-  /* Style banner offer for services page */
-#banner_span {
-  grid-column: 1 / span 2;
-}
 
   /* Footer */
 
