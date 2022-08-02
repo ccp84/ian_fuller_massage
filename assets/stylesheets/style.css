@@ -294,6 +294,21 @@ nav a:hover
     margin: 5px;
   }
 
+  /* Flex of requirement for contact box and opening hours on main page */
+
+  .flex_main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Respond to larger screen sizes */
+
+  @media (min-width: 600px) {
+    .flex_main {
+      flex-direction: row;
+    }
+  }
+
   /* Footer */
 
   footer {
