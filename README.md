@@ -134,7 +134,7 @@ All 3 views of the main page work from the same main grid layout.
 @media only screen and (min-width: 1200px) {...}
 ```
 
-* [Hamburger menu code from Erik Terwan](https://codepen.io/erikterwan/pen/grOZxx)
+* [Hamburger menu code from Erik Terwan](https://codepen.io/erikterwan/pen/EVzeRP)
 HTML and CSS code used with CSS modifications made to fit site style and theme 
 
 **Images**
