@@ -47,6 +47,12 @@ h1 {
   margin: 5px;
 }
 
+#logo {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
 /* Hamburger menu code by Erik Terwan https://codepen.io/erikterwan/pen/EVzeRP */
 
 nav a
