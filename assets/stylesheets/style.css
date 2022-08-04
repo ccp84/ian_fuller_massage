@@ -231,7 +231,7 @@ nav a:hover
     position: absolute;
     top: 5px;
     right: 5px;
-    width: 100px;
+    width: 125px;
   }
 
   /* Banner image changes for larger screens */
@@ -258,7 +258,7 @@ nav a:hover
       position: absolute;
       top: 5px;
       right: 5px;
-      width: 150px;
+      width: 175px;
     }
     
     /* banner image changes for larger screens*/
