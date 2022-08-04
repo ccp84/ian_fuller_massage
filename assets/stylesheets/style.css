@@ -11,11 +11,11 @@ body {
 @media only screen and (max-width: 600px) {
 
   h1 {
-    font-size: 4vw;
+    font-size: 4.5vw;
   }
 
   h2 {
-    font-size: 3.5vw;
+    font-size: 4vw;
   }
 
   p {
@@ -52,6 +52,14 @@ h1 {
   top: 5px;
   right: 5px;
   width: 100px;
+}
+
+#title {
+  display: flex;
+  align-content: center;
+  position: fixed;
+  top: 2px;
+  left: 60px;
 }
 
 /* Hamburger menu code by Erik Terwan https://codepen.io/erikterwan/pen/EVzeRP */
