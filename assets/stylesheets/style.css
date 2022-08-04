@@ -35,6 +35,9 @@ body {
 #sticky_title {
   background-color: #24d9f1;
   height: 40px;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 h1 {
