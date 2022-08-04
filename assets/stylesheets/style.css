@@ -51,6 +51,7 @@ h1 {
   position: absolute;
   top: 5px;
   right: 5px;
+  width: 100px;
 }
 
 /* Hamburger menu code by Erik Terwan https://codepen.io/erikterwan/pen/EVzeRP */
@@ -225,6 +226,14 @@ nav a:hover
     grid-template-columns: 1fr 1fr 1fr;
   }
 
+  /*Logo increases for larger screens*/
+  #logo {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 100px;
+  }
+
   /* Banner image changes for larger screens */
   #banner {
     background-image: url(../images/banner2.png);
@@ -242,6 +251,14 @@ nav a:hover
     .review_grid{
       display: grid;
       grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    /*Logo size increases for larger screens*/
+    #logo {
+      position: absolute;
+      top: 5px;
+      right: 5px;
+      width: 150px;
     }
     
     /* banner image changes for larger screens*/
