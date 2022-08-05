@@ -7,6 +7,16 @@ body {
   font-family: 'Quicksand', Arial, sans-serif;
 }
 
+/* START OF EXTERNAL CODE USED TO PUSH FOOTER TO 100% OF SCREEN SIZE
+ *Clever Sticky Footer! https://css-tricks.com/a-clever-sticky-footer-technique/ 
+*/
+html, body {
+  height: 100%;
+}
+/*
+*END OF EXTERNAL CODE
+*/
+
 /* Header */
 
 #sticky_title {
@@ -284,6 +294,17 @@ nav a:hover
     color: #4d4c4f;
     text-decoration: none;
   }
+
+  /* START OF EXTERNAL CODE USED TO PUSH FOOTER TO 100% OF SCREEN SIZE
+  * Clever Sticky Footer! https://css-tricks.com/a-clever-sticky-footer-technique/
+  */
+  body > footer {
+    position: sticky;
+    top: 100vh;
+  }
+  /*
+  *END OF EXTERNAL CODE
+  */
 
 /* RESPONSIVE CHANGES FOR SCREEN SIZES */
 
