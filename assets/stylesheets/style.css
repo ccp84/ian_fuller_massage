@@ -7,14 +7,6 @@ body {
   font-family: 'Quicksand', Arial, sans-serif;
 }
 
-/* Hide title on small screens all other development is for mobile first */
-@media only screen and (max-width: 600px) {
-.mobile_hide {
-    display: none;
-  }
-
-}
-
 /* Header */
 
 #sticky_title {
@@ -47,8 +39,9 @@ h1 {
   left: 60px;
 }
 
-/* Hamburger menu code by Erik Terwan https://codepen.io/erikterwan/pen/EVzeRP */
-
+/*START OF EXTERNAL CODE USED TO BUILD NAVIGATION MENU
+* Hamburger menu code by Erik Terwan https://codepen.io/erikterwan/pen/EVzeRP
+*/
 nav a
 {
   text-decoration: none;
@@ -194,6 +187,9 @@ nav a:hover
     transition: opacity 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
   }
 }
+/*
+*END OF EXTERNAL CODE
+*/
 
 /*Set up grid views for responsiveness*/
 /*Mobile view as standard*/
@@ -212,8 +208,99 @@ nav a:hover
     background-repeat: no-repeat;
   }
 
-/* Small devices (portrait tablets and large phones, 600px and up)*/
+  /* Main page content */
+
+  /*Light box*/
+  .box1 {
+    color: #4d4c4f;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #4d4c4f;
+    margin: 5px;
+    padding: 2px
+  }
+
+  /*Dark box*/
+  .box2 {
+    color: #24d9f1;
+    background-color: #4d4c4f;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #24d9f1;
+    margin: 5px;
+    padding: 2px;
+  }
+
+  /*Use to center and constrain images inside the grid*/
+  .div_pic {
+    text-align: center;
+  }
+
+  .grid_pic {
+    width: 100%;
+    max-width: 600px;
+  }
+
+  #welcome_pic {
+    float: left;
+    margin: 5px;
+  }
+
+  /* Flex of requirement for splitting boxes into 2 columns */
+
+  .flex_main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .flex_main_r {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+  }
+
+/* Styling for content inside services boxes */
+
+.service {
+  text-align: center;
+  margin: 2px;
+}
+
+/* Styling for content on reviews page */
+
+.review_h {
+  text-align: center;
+}
+
+  /* Footer */
+
+  footer {
+    background-color: #24d9f1;
+    color: #4d4c4f;
+  }
+
+  footer a {
+    color: #4d4c4f;
+    text-decoration: none;
+  }
+
+/* RESPONSIVE CHANGES FOR SCREEN SIZES */
+
+  /* Hide large items on phone screens */
+@media only screen and (max-width: 600px) {
+  .mobile_hide, h1{
+      display: none;
+    }
+  
+  }
+
+  /* Small devices (portrait tablets and large phones, 600px and up)*/
  @media only screen and (min-width: 600px) {
+  .flex_main, .flex_main_r {
+    flex-direction: row;
+  }
+  
   .review_grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -264,86 +351,4 @@ nav a:hover
       grid-column-start: 1;
       grid-column-end: 5;
     }
-  }
-
-  /* Main page content */
-
-  .box1 {
-    color: #4d4c4f;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #4d4c4f;
-    margin: 5px;
-    padding: 2px
-  }
-
-  .box2 {
-    color: #24d9f1;
-    background-color: #4d4c4f;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #24d9f1;
-    margin: 5px;
-    padding: 2px;
-  }
-
-  .div_pic {
-    text-align: center;
-  }
-
-  .grid_pic {
-    width: 100%;
-    max-width: 600px;
-  }
-
-  #welcome_pic {
-    float: left;
-    margin: 5px;
-  }
-
-  /* Flex of requirement for splitting boxes into 2 columns */
-
-  .flex_main {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-  }
-
-  .flex_main_r {
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: space-around;
-  }
-
-  /* Respond to larger screen sizes */
-
-  @media (min-width: 600px) {
-    .flex_main, .flex_main_r {
-      flex-direction: row;
-    }
-  }
-
-/* Styling for content inside services boxes */
-
-.service {
-  text-align: center;
-  margin: 2px;
-}
-
-/* Styling for content on reviews page */
-
-.review_h {
-  text-align: center;
-}
-
-  /* Footer */
-
-  footer {
-    background-color: #24d9f1;
-    color: #4d4c4f;
-  }
-
-  footer a {
-    color: #4d4c4f;
-    text-decoration: none;
   }
