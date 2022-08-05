@@ -7,24 +7,9 @@ body {
   font-family: 'Quicksand', Arial, sans-serif;
 }
 
-/* Set fonts to be responsive on smaller screens */
+/* Hide title on small screens all other development is for mobile first */
 @media only screen and (max-width: 600px) {
-
-  h1 {
-    font-size: 4.5vw;
-  }
-
-  h2 {
-    font-size: 4vw;
-  }
-
-  p {
-    font-size: 3vw;
-  }
-
-  /* And a class to use to hide larger elements on phone screens */
-
-  .mobile_hide {
+.mobile_hide {
     display: none;
   }
 
