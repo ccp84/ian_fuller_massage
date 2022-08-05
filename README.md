@@ -116,7 +116,7 @@ All 3 views of the main page work from the same main grid layout.
 
 **Code**
 
-* [Device breakpoint media queries used from recommendation on W3Schools](https://www.w3schools.com/css/css_rwd_mediaqueries.asp
+* [Device breakpoint media queries used from recommendation on W3Schools](https://www.w3schools.com/css/css_rwd_mediaqueries.asp)
 
 ```/* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {...}
@@ -140,6 +140,6 @@ HTML and CSS code used with CSS modifications made to fit site style and theme
 **Images**
 
 * All corporate images copyright of Ian Fuller Sports Massage designed by Cheryl Phillips and Gemma Linsley
-* Facebook logo from [Freeiconspng.com](www.freeiconspng.com)
-* FHT logo used under the terms set out in Ian's membership of the [Federation of Holistic Therapists](fht.org.uk)
+* Facebook logo from [Freeiconspng.com](https://www.freeiconspng.com/img/46272)
+* FHT logo used under the terms set out in Ian's membership of the [Federation of Holistic Therapists](https://www.fht.org.uk)
 * CosmicDinosaur image designed by Chloe Linsley-Thomas 
