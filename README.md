@@ -73,6 +73,8 @@ The desktop version of the site header and nav bar is viewed on any screen wider
 ### Footer Design
 Footer Design was completed next as it is consistent across all pages. This will enable me to clone the index page when creating further pages minimising repetitive work and ensuring consistency. It's main feature is to finish off the overall containment of the main content, and has links to social media and professional memberships related to the business. These links open in a new browser window. 
 
+The footer sticks to the bottom of the viewing screen for asthetics, courtesy of code from Clever Sticky Footer - see credits.
+
 **Mobile Footer**
 
 ![Image of mobile footer](documentation/testing/mobile_footer.png)
@@ -110,6 +112,23 @@ All 3 views of the main page work from the same main grid layout.
 
 ## Deployment
 
+The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the [GitHub repository](https://github.com/ccp84/ian_fuller_massage), navigate to the Settings tab 
+  - From the source section drop-down menu, select the **Main** Branch, then click "Save".
+  - The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+The live link can be found [here](https://ccp84.github.io/ian_fuller_massage)
+
+### Local Deployment
+
+In order to make a local copy of this project, you can clone it. In your IDE Terminal, type the following command to clone my repository:
+
+- `git clone https://github.com/ccp84/ian_fuller_massage.git`
+
+Alternatively, if using Gitpod, you can click below to create your own workspace using this repository.
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/ccp84/ian_fuller_massage)
+
 ---
 
 ## Credits
@@ -118,7 +137,8 @@ All 3 views of the main page work from the same main grid layout.
 
 * [Device breakpoint media queries used from recommendation on W3Schools](https://www.w3schools.com/css/css_rwd_mediaqueries.asp)
 
-```/* Extra small devices (phones, 600px and down) */
+``` css
+/* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {...}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -136,6 +156,17 @@ All 3 views of the main page work from the same main grid layout.
 
 * [Hamburger menu code from Erik Terwan](https://codepen.io/erikterwan/pen/EVzeRP)
 HTML and CSS code used with CSS modifications made to fit site style and theme 
+
+* ['Sticky' footer code from Clever Sticky Footer!](https://css-tricks.com/a-clever-sticky-footer-technique/)
+
+```css
+html, body { height: 100%;}
+
+body > footer {
+  position: sticky;
+  top: 100vh;
+}
+```
 
 **Images**
 
