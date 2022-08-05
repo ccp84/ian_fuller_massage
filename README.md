@@ -174,3 +174,7 @@ body > footer {
 * Facebook logo from [Freeiconspng.com](https://www.freeiconspng.com/img/46272)
 * FHT logo used under the terms set out in Ian's membership of the [Federation of Holistic Therapists](https://www.fht.org.uk)
 * CosmicDinosaur image designed by Chloe Linsley-Thomas 
+
+**Other**
+
+* [Reference used for correct accessibility labelling when hyperlinking an image file](https://usability.yale.edu/web-accessibility/articles/links)
