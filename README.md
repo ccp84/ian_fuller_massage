@@ -81,7 +81,7 @@ The footer sticks to the bottom of the viewing screen for asthetics, courtesy of
 
 ![Image of mobile footer](documentation/testing/mobile_footer.png)
 
-The mobile footer features a trimmed down version of the facebook image link for space saving. This is achieved using the ``<picture>`` tag with a media query nested inside the html. Aria labelling is used where the ``alt`` element is not available for images.
+The mobile footer features a trimmed down version of the facebook image link for space saving. This is achieved using the ``<picture>`` tag with a media query nested inside the html.
 
 **Tablet and Desktop Footer**
 
@@ -93,13 +93,12 @@ Both the tablet and desktop views feature a larger "Find us on Facebook" image l
 
 ![Image of all 3 main page views](documentation/testing/mainpage.png)
 
-All 3 views of the main page work from the same main grid layout. 
+All 3 views of the main page work from the same main css grid layout. 
 
 **Responsive Features**
-* On mobile, the text uses ``vw`` units to resize with the browser. 
 * The image associated with the 'Welcome' section disappears for mobile users to maximise screen space. 
 * The main offer located in the center of the landing page is sized to 100% of the screen for mobile users, this has a ``max width`` however for larger screen sizes so as not to distort the image file, and be too out of proportion with the rest of the content. 
-* An additional flex layout within the last grid box on the page enables the contact details and opening times to stack on top of each other for mobile users, but spread out for a more balanced view for larger screen sizes. 
+* CSS Flexbox is used in the last grid box on the page. This enables the contact details and opening times to stack on top of each other for mobile users, but spread out for a more balanced view for larger screen sizes. 
 
 ### Technologies Used
 * [Canva](www.canva.com) - Logo design and image manipulation
