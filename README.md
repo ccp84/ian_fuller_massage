@@ -102,7 +102,7 @@ All 3 views of the main page work from the same main CSS grid layout.
 
 ### Services and Pricing Page
 
-![Image of all 3 Services and Pricing page views](documentation/testing/servicepage.png)
+![Image of all 3 services and pricing page views](documentation/testing/servicepage.png)
 
 The Services and Pricing page is built from the same main CSS grid layout of the homepage for a mobile first approach of stacked boxes for content layout. 
 
@@ -111,6 +111,14 @@ The Services and Pricing page is built from the same main CSS grid layout of the
 * To allow for the headings to alternate sides inside the Flexbox layout, reverse display is used for alternate boxes so that the mobile content is still in the correct sequence. 
 
 ### Reviews and Gallery Page
+
+![Image of all 3 reviews and gallery page views](documentation/testing/reviewpage.png)
+
+The Reviews and Gallery page is built from the same mobile first CSS grid as the rest of the main site for a clean stacked layout. 
+
+**Responsive Features**
+* A secondary grid runs in the background on this page to format the boxes containing client reviews and gallery pictures into a 3 column format for tablet views or 4 columns for desktop. 
+* Gallery images take up 100% of the viewing window on mobiles but are constrained to a ``max width`` in order to avoid horizontal scrolling in the secondary grid layouts. 
 
 ### Technologies Used
 * [Canva](www.canva.com) - Logo design and image manipulation
