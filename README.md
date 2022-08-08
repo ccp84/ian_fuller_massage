@@ -121,9 +121,13 @@ The Reviews and Gallery page is built from the same mobile first CSS grid as the
 * Gallery images take up 100% of the viewing window on mobiles but are constrained to a ``max width`` in order to avoid horizontal scrolling in the secondary grid layouts. 
 
 ### Technologies Used
-* [Canva](www.canva.com) - Logo design and image manipulation
-* Paint.net - Image manipulation and resizing
-* Google Fonts - Quicksilver font used 
+* HTML - Main language used for site functionality.
+* CSS - Main language used for site style.
+* CSS Grid and CSS Flexbox - Functionality used to enable responsive layout changes for different screenwidth breakpoints. 
+* [GitHub](https://github.com/) - Used for version control during project development and cloud hosting of project code.
+* [Canva](www.canva.com) - Logo design and image manipulation.
+* Paint.net - Used for image manipulation and resizing.
+* [Google Fonts](https://fonts.google.com/specimen/Quicksand) - Quicksand font used.
 
 ---
 
@@ -188,6 +192,10 @@ body > footer {
   top: 100vh;
 }
 ```
+
+* CSS Flexbox tutorial followed on [W3 Schools](https://www.w3schools.com/css/css3_flexbox.asp)
+
+* CSS Grid tutorial followed on [W3 Schools](https://www.w3schools.com/css/css_grid.asp)
 
 **Images**
 
