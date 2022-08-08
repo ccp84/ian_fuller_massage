@@ -93,12 +93,24 @@ Both the tablet and desktop views feature a larger "Find us on Facebook" image l
 
 ![Image of all 3 main page views](documentation/testing/mainpage.png)
 
-All 3 views of the main page work from the same main css grid layout. 
+All 3 views of the main page work from the same main CSS grid layout. 
 
 **Responsive Features**
 * The image associated with the 'Welcome' section disappears for mobile users to maximise screen space. 
 * The main offer located in the center of the landing page is sized to 100% of the screen for mobile users, this has a ``max width`` however for larger screen sizes so as not to distort the image file, and be too out of proportion with the rest of the content. 
 * CSS Flexbox is used in the last grid box on the page. This enables the contact details and opening times to stack on top of each other for mobile users, but spread out for a more balanced view for larger screen sizes. 
+
+### Services and Pricing Page
+
+![Image of all 3 Services and Pricing page views](documentation/testing/servicepage.png)
+
+The Services and Pricing page is built from the same main CSS grid layout of the homepage for a mobile first approach of stacked boxes for content layout. 
+
+**Responsive Features**
+* CSS Flexbox is used to maintain a stacked layout for mobile viewing, and then allow the full width of larger screens to be used for tablet and desktop. 
+* To allow for the headings to alternate sides inside the Flexbox layout, reverse display is used for alternate boxes so that the mobile content is still in the correct sequence. 
+
+### Reviews and Gallery Page
 
 ### Technologies Used
 * [Canva](www.canva.com) - Logo design and image manipulation
