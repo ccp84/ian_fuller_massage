@@ -132,6 +132,7 @@ The Reviews and Gallery page is built from the same mobile first CSS grid as the
 ---
 
 ## Testing
+[Link to testing carried out](documentation/testing/TESTING.md)
 
 ---
 
