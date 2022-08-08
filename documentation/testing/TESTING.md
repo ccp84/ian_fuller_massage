@@ -4,7 +4,7 @@
 
 | Visitors to the site should be able to: |      |
 | ----------------------------------------| --- |
-| Load it on a mobile, tablet or desktop  | (mainpage.png)       |
+| Load it on a mobile, tablet or desktop  | ![Screenshot of mobile tablet and desktop views](mainpage.png)       |
 | Navigate between the pages easily       |         |
 | Find the prices of each service         |         |
 | Contact Ian                             |         |
