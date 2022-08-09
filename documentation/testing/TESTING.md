@@ -62,6 +62,7 @@ To rectify this, I created a new `box2_pic` class for use on the reviews page an
   ```
 
   All 3 pages now pass through the W3C validator
+  ![Screenshots of W3C validation passes](w3c_passed.png)
 
 
   ### Jigsaw Validator
