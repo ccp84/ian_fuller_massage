@@ -22,6 +22,53 @@
 
 ## Code Validation
 
+### W3C Validator
+
+Initially the Reviews page threw up a duplicate classes error from applying two previously created classes to the same `<div>`.
+![Screenshot of W3C Validator](w3c_reviews_error.png)
+```html
+<div class="box2" class="div_pic">
+```
+```css
+ /*Dark box*/
+  .box2 {
+    color: #24d9f1;
+    background-color: #4d4c4f;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #24d9f1;
+    margin: 5px;
+    padding: 2px;
+  }
+  /*Use to center and constrain images inside the grid*/
+  .div_pic {
+    text-align: center;
+  }
+  ```
+To rectify this, I created a new `box2_pic` class for use on the reviews page and applied this to the gallery. 
+
+```css
+ /*To box in gallery pictures*/
+  .box2_pic {
+    color: #24d9f1;
+    background-color: #4d4c4f;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #24d9f1;
+    margin: 5px;
+    padding: 2px;
+    text-align: center;
+  }
+  ```
+
+  All 3 pages now pass through the W3C validator
+
+
+  ### Jigsaw Validator
+
+  The W3C CSS Jigsaw validation was passed with no errors and just 3 warnings on the code copied for the hamburger menu. 
+  ![Screenshot of Jigsaw validation](css_validation.png)
+
 ## Responsiveness
 
 ## Accessibility (Lighthouse Score)
