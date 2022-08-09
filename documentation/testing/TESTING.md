@@ -11,13 +11,14 @@
 
 |Features of the site:                    |         |
 | --------------------------------------- | --------|
-| A consistent header and footer throughout the site, wether viewed on a mobile, tablet or desktop. |      |
-| A welcome from Ian                       |         |
-| For mobile and tablet views, a collapsible menu to save on screen space |          |
-| Consistent corporate theme               |          |
-| Link to social media                     |          |
-| A gallery of recent events               |          |
-| A contact form                           |          |
+| A consistent header and footer throughout the site, wether viewed on a mobile, tablet or desktop. | The header and footer, although having minor image file variations for best viewing on each type of device, have a consistent style and layout. ![Image of Desktop header](desktop_header.png) as you can see there is only limited variation from this to the mobile view ![Image of mobile header](mobile_header.png). ![Image of desktop footer](tablet_desktop_footer.png) again very little variation in the footer design ![Image of mobile footer](mobile_footer.png) |
+| A welcome from Ian                       | This is included on the main landing page to introduce visitors to the site. ![Screenshot of welcome text from Ian](mainpage.png) |
+| For mobile and tablet views, a collapsible menu to save on screen space | The hamburger menu was kept across all designs for site consistency and clean code design. ![Screenshot of navigation menu](navigation.png) |
+| Consistent corporate theme               | Use of the main colours and logo tie the site nicely together maintaining a consistent feel throughout the site. ![Preview of all views of the site](preview.png) |
+| Link to social media                     | A link to the facebook page is included in the footer |
+| A gallery of recent events               | A gallery is included on the reviews page from Jouse 24 hour race. ![Screenshot of the picture gallery](gallery.png) |
+| A contact form                           | I have not implemented this feature due to the lack of either PHP or JavaScript functionality to make it work properly. As this site is to eventually be used commercially, it is a feature I will be working on following submission to complete the PHP functionality by reviewing learning from my previous degree course to get it working correctly for the customer. |
+| Professional accreditations on display   | I have used the FHT logo in the footer of the page in accordance with the rules set out by their membership. This links to Ian's personal page within their site where clients can review his memership of the FHT and leave reviews directly on the site there. ![Screenshot of footer](mobile_footer.png) |
 
 ## Code Validation
 
