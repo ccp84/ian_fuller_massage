@@ -246,6 +246,18 @@ nav a:hover
     text-align: center;
   }
 
+  /*To box in gallery pictures*/
+  .box2_pic {
+    color: #24d9f1;
+    background-color: #4d4c4f;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #24d9f1;
+    margin: 5px;
+    padding: 2px;
+    text-align: center;
+  }
+  
   .grid_pic {
     width: 100%;
     max-width: 600px;
