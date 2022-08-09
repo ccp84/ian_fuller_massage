@@ -15,8 +15,8 @@
 | A welcome from Ian                       | This is included on the main landing page to introduce visitors to the site. ![Screenshot of welcome text from Ian](mainpage.png) |
 | For mobile and tablet views, a collapsible menu to save on screen space | The hamburger menu was kept across all designs for site consistency and clean code design. ![Screenshot of navigation menu](navigation.png) |
 | Consistent corporate theme               | Use of the main colours and logo tie the site nicely together maintaining a consistent feel throughout the site. ![Preview of all views of the site](preview.png) |
-| Link to social media                     | A link to the facebook page is included in the footer |
-| A gallery of recent events               | A gallery is included on the reviews page from Jouse 24 hour race. ![Screenshot of the picture gallery](gallery.png) |
+| Link to social media                     | A link to the facebook page is included in the footer ![Screenshot of footer](tablet_desktop_footer.png) |
+| A gallery of recent events               | A gallery is included on the reviews page from Joust 24 hour race. ![Screenshot of the picture gallery](gallery.png) |
 | A contact form                           | I have not implemented this feature due to the lack of either PHP or JavaScript functionality to make it work properly. As this site is to eventually be used commercially, it is a feature I will be working on following submission to complete the PHP functionality by reviewing learning from my previous degree course to get it working correctly for the customer. |
 | Professional accreditations on display   | I have used the FHT logo in the footer of the page in accordance with the rules set out by their membership. This links to Ian's personal page within their site where clients can review his memership of the FHT and leave reviews directly on the site there. ![Screenshot of footer](mobile_footer.png) |
 
