@@ -198,4 +198,22 @@ I have added this to the `<head>` element of the document
 
 ## Browser Compatibility
 
+To test cross platform compatibility as far as possible, the site has been tested as working in the following browsers:
+
+* Google Chrome
+
+![Screenshot from Google Chrome](fullscreen_chrome.png)
+
+* Firefox (Developer)
+
+![Screenshot from Firefox blue edition](tablet_firefox.png)
+
+* Microsoft Edge
+
+![Screenshot from Edge](mobile_edge.png)
+
+* Safari
+
+![Screenshot from Safari](mobile_safari.png)
+
 [Return to README](../../README.md)
