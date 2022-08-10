@@ -72,6 +72,25 @@ To rectify this, I created a new `box2_pic` class for use on the reviews page an
 
 ## Responsiveness
 
+**Full Screen**
+
+Fullscreen views and links all tested as working for any size over 992px wide
+
+![Screenshot of full screen view](fullscreen_chrome.png)
+
+**Tablet View**
+
+Tablet view tested as working for any sizes between 600px and 992px wide
+
+![Screenshot of tablet view](tablet_firefox.png)
+
+**Mobile View**
+
+Mobile view tested for any width smaller than 600px wide tested both in a small browser window and on an iphone. 
+
+![Screenshot of mobile view in small browser window](mobile_edge.png)
+![Screenshot of mobile view on iphone](mobile_safari.png)
+
 ## Accessibility (Lighthouse Score)
 
 ## Browser Compatibility
