@@ -97,6 +97,7 @@ Mobile view tested for any width smaller than 600px wide tested both in a small 
 
 **Initial audit points :**
 * Image elements do not have explicit `width` and `height`
+
 For the *Current Offer* image, this is handled by the css class applied to make it responsive:
 ```css
 .grid_pic {
@@ -112,6 +113,7 @@ For the 3 footer images however I have fixed these with a `height` of 50px again
 }
 ```
 * Form elements do not have associated labels
+
 This is referring to the checkbox used in the external code for the hamburger menu. 
 ```html
 <input type="checkbox" />
@@ -123,11 +125,26 @@ To resolve this I have labelled this checkbox up as acting as a navigation menu
 ```
  
  * Document does not have a meta description 
+
  I have now added this to the `<head>` of the page
 
 **Final Lighthouse scores after bug fixes:**
 
 ![Screenshot of lighthouse scores for homepage](home_lighthouse.png)
+
+### Services and Pricing Page
+
+**Initial Audit Points**
+
+Image elements do not have explicit ``width`` and ``height``
+
+As for the index page, I have applied a `height` of 50px by using the ``foot_pic`` class as the height of the footer element does not change. 
+
+```css
+.foot_pic {
+  height: 50px;
+}
+```
 
 ## Browser Compatibility
 
