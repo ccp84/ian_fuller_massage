@@ -192,6 +192,10 @@ I have used the same `<label>` fix as on the other 2 pages to resolve this issue
 
 I have added this to the `<head>` element of the document
 
+**Final Lighthouse scores after bug fixes for reviews page**
+
+![Screenshot of Lighthouse score for reviews page](review_lighthouse.png)
+
 ## Browser Compatibility
 
 [Return to README](../../README.md)
