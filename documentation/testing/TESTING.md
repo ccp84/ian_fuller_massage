@@ -157,9 +157,40 @@ To resolve this I have used the same fix as for the home page with labelling of 
 
 Meta description added to the `<head>` element of the page
 
-** Final Lighthouse scores after bug fixes for services page **
+**Final Lighthouse scores after bug fixes for services page**
 
 ![Screenshot of lighthouse scores for services page](service_lighthouse.png)
+
+### Reviews and Gallery Page
+
+**Initial Audit Points**
+
+* Image elements do not have explicit `width` and `height` 
+
+Gallery images are handeled by the `grid_pic` class to make the responsive when wrapped in the `box2_pic` class:
+
+```css
+.grid_pic {
+    width: 100%;
+    max-width: 600px;
+  }
+```
+
+The 3 footer images are again maintained at `50px` by the `foot_pic` class:
+
+```css
+.foot_pic {
+  height: 50px;
+}
+```
+
+* Form elements do not have associated labels
+
+I have used the same `<label>` fix as on the other 2 pages to resolve this issue.
+
+* Document does not have a meta description
+
+I have added this to the `<head>` element of the document
 
 ## Browser Compatibility
 
