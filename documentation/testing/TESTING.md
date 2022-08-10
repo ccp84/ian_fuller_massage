@@ -104,7 +104,14 @@ For the *Current Offer* image, this is handled by the css class applied to make 
     max-width: 600px;
   }
 ```
-For the 3 footer images however I have fixed these with a `height` of 50px as the footer height does not change between devices. 
+For the 3 footer images however I have fixed these with a `height` of 50px using a new class
+
+```css
+.foot_pic {
+  height: 50px;
+}
+```
+as the footer height does not change between devices. 
 
 ## Browser Compatibility
 
