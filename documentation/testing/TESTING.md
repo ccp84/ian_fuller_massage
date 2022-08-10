@@ -93,9 +93,9 @@ Mobile view tested for any width smaller than 600px wide tested both in a small 
 
 ## Accessibility (Lighthouse Score)
 
-**Home Page**
+### Home Page
 
-Initial audit points :
+**Initial audit points :**
 * Image elements do not have explicit `width` and `height`
 For the *Current Offer* image, this is handled by the css class applied to make it responsive:
 ```css
@@ -124,6 +124,10 @@ To resolve this I have labelled this checkbox up as acting as a navigation menu
  
  * Document does not have a meta description 
  I have now added this to the `<head>` of the page
+
+**Final Lighthouse scores after bug fixes:**
+
+![Screenshot of lighthouse scores for homepage](home_lighthouse.png)
 
 ## Browser Compatibility
 
