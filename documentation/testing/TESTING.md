@@ -104,7 +104,7 @@ For the *Current Offer* image, this is handled by the css class applied to make 
     max-width: 600px;
   }
 ```
-For the 3 footer images however I have fixed these with a `height` of 50px using a new class as the footer height does not change between devices.
+For the 3 footer images however I have fixed these with a `height` of 50px again in the css as the footer height does not change across the 3 views.
 
 ```css
 .foot_pic {
@@ -122,6 +122,8 @@ To resolve this I have labelled this checkbox up as acting as a navigation menu
 <label for="navi">This checkbox is acting as a navigation menu</label>
 ```
  
+ * Document does not have a meta description 
+ I have now added this to the `<head>` of the page
 
 ## Browser Compatibility
 
