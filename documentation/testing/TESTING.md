@@ -157,6 +157,10 @@ To resolve this I have used the same fix as for the home page with labelling of 
 
 Meta description added to the `<head>` element of the page
 
+** Final Lighthouse scores after bug fixes for services page **
+
+![Screenshot of lighthouse scores for services page](service_lighthouse.png)
+
 ## Browser Compatibility
 
 [Return to README](../../README.md)
