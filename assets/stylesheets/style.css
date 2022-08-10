@@ -49,6 +49,14 @@ h1 {
   left: 60px;
 }
 
+label {
+  font-size: 0.1vw;
+  color: #24d9f1;
+  position: fixed;
+  top: -1;
+  left: -100;
+}
+
 /*START OF EXTERNAL CODE USED TO BUILD NAVIGATION MENU
 * Hamburger menu code by Erik Terwan https://codepen.io/erikterwan/pen/EVzeRP
 */
