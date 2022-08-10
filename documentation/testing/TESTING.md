@@ -153,7 +153,9 @@ To resolve this I have used the same fix as for the home page with labelling of 
 <input id="navi" type="checkbox" />
 <label for="navi">This checkbox is acting as a navigation menu</label>
 ```
+* Document does not have a meta description
 
+Meta description added to the `<head>` element of the page
 
 ## Browser Compatibility
 
