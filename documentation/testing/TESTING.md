@@ -136,7 +136,7 @@ To resolve this I have labelled this checkbox up as acting as a navigation menu
 
 **Initial Audit Points**
 
-Image elements do not have explicit ``width`` and ``height``
+* Image elements do not have explicit ``width`` and ``height``
 
 As for the index page, I have applied a `height` of 50px by using the ``foot_pic`` class as the height of the footer element does not change. 
 
@@ -145,6 +145,15 @@ As for the index page, I have applied a `height` of 50px by using the ``foot_pic
   height: 50px;
 }
 ```
+
+* Form elements do not have associated labels
+
+To resolve this I have used the same fix as for the home page with labelling of the checkbox in the navigation menu code. 
+```html
+<input id="navi" type="checkbox" />
+<label for="navi">This checkbox is acting as a navigation menu</label>
+```
+
 
 ## Browser Compatibility
 
