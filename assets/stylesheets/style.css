@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
 /* Overall site styling */
 
 body {
@@ -8,17 +9,16 @@ body {
 }
 
 /* START OF EXTERNAL CODE USED TO PUSH FOOTER TO 100% OF SCREEN SIZE
- *Clever Sticky Footer! https://css-tricks.com/a-clever-sticky-footer-technique/ 
+ * Clever Sticky Footer! https://css-tricks.com/a-clever-sticky-footer-technique/ 
 */
 html, body {
   height: 100%;
 }
 /*
-*END OF EXTERNAL CODE
+* END OF EXTERNAL CODE
 */
 
 /* Header */
-
 #sticky_title {
   background-color: #24d9f1;
   opacity: 80%;
@@ -57,11 +57,10 @@ label {
   left: -100;
 }
 
-/*START OF EXTERNAL CODE USED TO BUILD NAVIGATION MENU
+/* START OF EXTERNAL CODE USED TO BUILD NAVIGATION MENU
 * Hamburger menu code by Erik Terwan https://codepen.io/erikterwan/pen/EVzeRP
 */
-nav a
-{
+nav a {
   text-decoration: none;
   color: #4d4c4f;
   font-weight: bold;
@@ -69,16 +68,14 @@ nav a
   opacity: 100%;
 }
 
-nav a:hover
-{
+nav a:hover {
   color: white;
   font-weight: bold;
   background-color: #4d4c4f;
   opacity: 100%;
 }
 
-#menuToggle
-{
+#menuToggle {
   display: block;
   position: relative;
   top: 10px;
@@ -90,8 +87,7 @@ nav a:hover
   user-select: none;
 }
 
-#menuToggle input
-{
+#menuToggle input {
   display: block;
   width: 40px;
   height: 32px;
@@ -107,8 +103,7 @@ nav a:hover
   -webkit-touch-callout: none;
 }
 
-#menuToggle span
-{
+#menuToggle span {
   display: block;
   width: 33px;
   height: 4px;
@@ -124,13 +119,11 @@ nav a:hover
               opacity 0.55s ease;
 }
 
-#menuToggle span:first-child
-{
+#menuToggle span:first-child {
   transform-origin: 0% 0%;
 }
 
-#menuToggle span:nth-last-child(2)
-{
+#menuToggle span:nth-last-child(2) {
   transform-origin: 0% 100%;
 }
 
@@ -138,8 +131,7 @@ nav a:hover
  * Transform all the slices of hamburger
  * into a crossmark.
  */
-#menuToggle input:checked ~ span
-{
+#menuToggle input:checked ~ span {
   opacity: 1;
   transform: rotate(45deg) translate(-2px, -1px);
   background: #4d4c4f;
@@ -148,14 +140,12 @@ nav a:hover
 /*
  * But let's hide the middle one.
  */
-#menuToggle input:checked ~ span:nth-last-child(3)
-{
+#menuToggle input:checked ~ span:nth-last-child(3) {
   opacity: 0;
   transform: rotate(0deg) scale(0.2, 0.2);
 }
 
-#menuToggle input:checked ~ span:nth-last-child(2)
-{
+#menuToggle input:checked ~ span:nth-last-child(2) {
   opacity: 1;
   transform: rotate(-45deg) translate(0, -1px);
 }
@@ -164,8 +154,7 @@ nav a:hover
  * Make this absolute positioned
  * at the top left of the screen
  */
-#menu
-{
+#menu {
   position: absolute;
   width: 100px;
   margin: 0;
@@ -174,7 +163,7 @@ nav a:hover
   
   background: #24d9f1;
   list-style-type: none;
-  -webkit-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;  
   /* to stop flickering of text in safari */
   
   transform-origin: 0% 0%;
@@ -183,16 +172,14 @@ nav a:hover
   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
 }
 
-#menu li
-{
+#menu li {
   padding: 5px;
 }
 
 /*
  * And let's fade it in from the left
  */
-#menuToggle input:checked ~ ul
-{
+#menuToggle input:checked ~ ul {
   transform: none;
   opacity: 1;
 }
@@ -204,144 +191,140 @@ nav a:hover
 
     transition: opacity 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
   }
-}
+} 
 /*
-*END OF EXTERNAL CODE
+* END OF EXTERNAL CODE
 */
 
-/*Set up grid views for responsiveness*/
-/*Mobile view as standard*/
-.main_grid, .review_grid{
+/* Set up grid views for responsiveness */
+/* Mobile view as standard */
+.main_grid, .review_grid {
   display: grid;
   grid-template-columns: 1fr;
 }  
 
-  /* Banner image */
+/* Banner image */
+#banner {
+  background-image: url(../images/bannersml.png);
+  height: 150px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
-  #banner {
-    background-image: url(../images/bannersml.png);
-    height: 150px;
-    width: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
+/* Main page content */
 
-  /* Main page content */
+/* Light box */
+.box1 {
+  color: #4d4c4f;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #4d4c4f;
+  margin: 5px;
+  padding: 2px
+}
 
-  /*Light box*/
-  .box1 {
-    color: #4d4c4f;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #4d4c4f;
-    margin: 5px;
-    padding: 2px
-  }
+/*Dark box*/
+.box2 {
+  color: #24d9f1;
+  background-color: #4d4c4f;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #24d9f1;
+  margin: 5px;
+  padding: 2px;
+}
 
-  /*Dark box*/
-  .box2 {
-    color: #24d9f1;
-    background-color: #4d4c4f;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #24d9f1;
-    margin: 5px;
-    padding: 2px;
-  }
+/*Use to center and constrain images inside the grid*/
+.div_pic {
+  text-align: center;
+}
 
-  /*Use to center and constrain images inside the grid*/
-  .div_pic {
-    text-align: center;
-  }
-
-  /*To box in gallery pictures*/
-  .box2_pic {
-    color: #24d9f1;
-    background-color: #4d4c4f;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #24d9f1;
-    margin: 5px;
-    padding: 2px;
-    text-align: center;
-  }
+/*To box in gallery pictures*/
+.box2_pic {
+  color: #24d9f1;
+  background-color: #4d4c4f;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #24d9f1;
+  margin: 5px;
+  padding: 2px;
+  text-align: center;
+}
   
-  .grid_pic {
-    width: 100%;
-    max-width: 600px;
-  }
+.grid_pic {
+  width: 100%;
+  max-width: 600px;
+}
 
-  #welcome_pic {
-    float: left;
-    margin: 5px;
-  }
+#welcome_pic {
+  float: left;
+  margin: 5px;
+}
 
-  /* Flex of requirement for splitting boxes into 2 columns */
+/* Flex of requirement for splitting boxes into 2 columns */
 
-  .flex_main {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-  }
+.flex_main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
 
-  .flex_main_r {
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: space-around;
-  }
+.flex_main_r {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-around;
+}
 
 /* Styling for content inside services boxes */
-
 .service {
   text-align: center;
   margin: 2px;
 }
 
 /* Styling for content on reviews page */
-
 .review_h {
   text-align: center;
 }
 
-  /* Footer */
+/* Footer */
 
-  footer {
-    background-color: #24d9f1;
-    color: #4d4c4f;
-  }
+footer {
+  background-color: #24d9f1;
+  color: #4d4c4f;
+}
 
-  footer a {
-    color: #4d4c4f;
-    text-decoration: none;
-  }
+footer a {
+  color: #4d4c4f;
+  text-decoration: none;
+}
 
-  .foot_pic {
-    height: 50px;
-  }
+.foot_pic {
+  height: 50px;
+}
 
-  /* START OF EXTERNAL CODE USED TO PUSH FOOTER TO 100% OF SCREEN SIZE
-  * Clever Sticky Footer! https://css-tricks.com/a-clever-sticky-footer-technique/
-  */
-  body > footer {
-    position: sticky;
-    top: 100vh;
-  }
-  /*
-  *END OF EXTERNAL CODE
-  */
+/* START OF EXTERNAL CODE USED TO PUSH FOOTER TO 100% OF SCREEN SIZE
+* Clever Sticky Footer! https://css-tricks.com/a-clever-sticky-footer-technique/
+*/
+body > footer {
+  position: sticky;
+  top: 100vh;
+}
+/*
+* END OF EXTERNAL CODE
+*/
 
 /* RESPONSIVE CHANGES FOR SCREEN SIZES */
 
-  /* Hide large items on phone screens */
+/* Hide large items on phone screens */
 @media only screen and (max-width: 600px) {
-  .mobile_hide, h1{
-      display: none;
-    }
-  
+  .mobile_hide, h1 {
+    display: none;
   }
+}
 
-  /* Small devices (portrait tablets and large phones, 600px and up)*/
- @media only screen and (min-width: 600px) {
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
   .flex_main, .flex_main_r {
     flex-direction: row;
   }
@@ -369,31 +352,31 @@ nav a:hover
     grid-column-start: 1;
     grid-column-end: 3;
   }
-  }
-  
-  /* Large devices (laptops/desktops, 992px and up)*/
-  @media only screen and (min-width: 992px) {
-    .review_grid{
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr 1fr;
-    }
+}
 
-    /*Logo size increases for larger screens*/
-    #logo {
-      position: absolute;
-      top: 5px;
-      right: 5px;
-      width: 175px;
-    }
-    
-    /* banner image changes for larger screens*/
-    #banner {
-      background-image: url(../images/banner2.png);
-      height: 250px;
-      width: 100%;
-      background-size: cover;
-      background-repeat: no-repeat;
-      grid-column-start: 1;
-      grid-column-end: 5;
-    }
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .review_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
   }
+
+  /*Logo size increases for larger screens*/
+  #logo {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 175px;
+  }
+    
+  /* banner image changes for larger screens*/
+  #banner {
+    background-image: url(../images/banner2.png);
+    height: 250px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-column-start: 1;
+    grid-column-end: 5;
+  }
+}
