@@ -128,6 +128,8 @@ The Reviews and Gallery page is built from the same mobile first CSS grid as the
 * [Canva](www.canva.com) - Logo design and image manipulation.
 * Paint.net - Used for image manipulation and resizing.
 * [Google Fonts](https://fonts.google.com/specimen/Quicksand) - Quicksand font used.
+* [GitHub Projects](https://github.com/ccp84/ian_fuller_massage/projects/1) - used to track completion of project components.
+![Screenshot of completed project board](/documentation/testing/project_board.png)
 
 ---
 
